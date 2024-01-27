@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         {/*-- JavaScript Libraries */}
-        <script async src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script async src="https://code.jquery.com/jquery-3.4.1.min.js" strategy="beforeInteractive"></script>
         <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
         <script async  src="lib/wow/wow.min.js"></script>
         <script async  src="lib/easing/easing.min.js"></script>
