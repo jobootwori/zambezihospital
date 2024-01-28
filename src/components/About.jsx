@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const About = () => {
@@ -10,19 +11,24 @@ const About = () => {
             <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
               <div
                 className="position-relative overflow-hidden h-100"
-                style={{minHeight: 400+"px"}}
+                style={{ minHeight: 400 + "px" }}
               >
-                <img
+                <Image
                   className="position-absolute w-100 h-100 pt-5 pe-5"
-                  src="img/about-1.jpg"
+                  src="/img/about-1.jpg"
                   alt=""
-                  style={{objectFit: "cover"}}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
                 />
-                <img
+                <Image
                   className="position-absolute top-0 end-0 bg-white ps-2 pb-2"
-                  src="img/about-2.jpg"
+                  src="/img/about-2.jpg"
                   alt=""
-                  style={{width: 200+"px", height: 200+"px"}}
+                  width={200}
+                  height={200}
+                 // style={{ width: 200 + "px", height: 200 + "px" }}
                 />
               </div>
             </div>

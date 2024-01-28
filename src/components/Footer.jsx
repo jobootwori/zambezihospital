@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h1 className="fw-bold text-primary mb-4">
-                Charity<span className="text-white">Logo</span>
-              </h1>
+              <h4 className="fw-bold text-primary mb-4">
+                ZambeziCancer<span className="text-white">Hospital</span>
+              </h4>
               <p>
                 Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
                 erat ipsum et lorem et sit, sed stet lorem sit clita
@@ -36,14 +36,13 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <h5 className="text-light mb-4">Address</h5>
               <p>
-                <i className="fa fa-map-marker-alt me-3"></i>123 Street, New York,
-                USA
+                <i className="fa fa-map-marker-alt me-3"></i>Maai Mahiu road, Nairobi
               </p>
               <p>
-                <i className="fa fa-phone-alt me-3"></i>+012 345 67890
+                <i className="fa fa-phone-alt me-3"></i>+254 722 801 299
               </p>
               <p>
-                <i className="fa fa-envelope me-3"></i>info@example.com
+                <i className="fa fa-envelope me-3"></i>thezambezihospital@gmail.com
               </p>
             </div>
             <div className="col-lg-3 col-md-6">

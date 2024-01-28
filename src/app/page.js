@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from '@/components/Header';
+import Header from "@/components/Header";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
@@ -13,18 +13,21 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       {/* <!-- Spinner Start --> */}
-      <div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div
+        id="spinner"
+        className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
         <div className="spinner-grow text-primary" role="status"></div>
       </div>
       {/* <!-- Spinner End --> */}
       <Header />
-      <Carousel/>
+      <Carousel />
       <About />
-      <Causes />
-      <Service />
-      <Donate />
-      <Team />
-      <Testimonial />
+      {/* <Causes /> */}
+      {/* <Service /> */}
+      {/* <Donate /> */}
+      {/* <Team /> */}
+      {/* <Testimonial /> */}
       <Footer />
     </main>
   );
