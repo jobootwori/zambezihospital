@@ -28,7 +28,7 @@ const About = () => {
                   alt=""
                   width={200}
                   height={200}
-                 // style={{ width: 200 + "px", height: 200 + "px" }}
+                  // style={{ width: 200 + "px", height: 200 + "px" }}
                 />
               </div>
             </div>
@@ -37,20 +37,24 @@ const About = () => {
                 <div className="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
                   About Us
                 </div>
-                <h1 className="display-6 mb-5">
-                  We Help People In Need Around The World
+                <h1 className="display-6 mb-2">
+                  Welcome to Our Haven of Healing and Hope
                 </h1>
                 <div className="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                   <p className="text-dark mb-2">
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem sed
-                    stet lorem sit clita duo justo erat amet
+                    At Zambezi Cancer Hospital, we extend our warmest embrace to
+                    those navigating the challenging journey of cancer. Our
+                    dedicated team is here to provide compassionate care and
+                    support every step of the way
                   </p>
-                  <span className="text-primary">Jhon Doe, Founder</span>
+                  <span className="text-primary">Dr. Mutuma, Founder</span>
                 </div>
                 <p className="mb-5">
-                  Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                  Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                  sed stet lorem sit clita duo justo magna dolore erat amet
+                  With a team of experienced oncologists, surgeons, nurses, and
+                  support staff, we bring together diverse expertise to offer
+                  comprehensive cancer services. Our commitment to excellence
+                  ensures that patients receive personalized care tailored to
+                  their unique needs
                 </p>
                 <a className="btn btn-primary py-2 px-3 me-3" href="">
                   Learn More
