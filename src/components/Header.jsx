@@ -61,7 +61,7 @@ const Header = () => {
                   About
                 </a>
                 <a href="causes.html" className="nav-item nav-link">
-                  Cancer Services
+                  Services
                 </a>
                 <div className="nav-item dropdown">
                   <a
