@@ -11,11 +11,11 @@ const Header = () => {
           <div className="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
             <div className="col-lg-6 px-5 text-start">
               <small>
-                <i className="fa fa-map-marker-alt me-2"></i>123 Street, New
-                York, USA
+                <i className="fa fa-map-marker-alt me-2"></i>Mai Mahiu Road
+                , Nairobi, Kenya
               </small>
               <small className="ms-4">
-                <i className="fa fa-envelope me-2"></i>info@example.com
+                <i className="fa fa-envelope me-2"></i>thezambezihospital@gmail.com
               </small>
             </div>
             <div className="col-lg-6 px-5 text-end">
@@ -61,7 +61,7 @@ const Header = () => {
                   About
                 </a>
                 <a href="causes.html" className="nav-item nav-link">
-                  Causes
+                  Cancer Services
                 </a>
                 <div className="nav-item dropdown">
                   <a
@@ -69,11 +69,11 @@ const Header = () => {
                     className="nav-link dropdown-toggle"
                     data-bs-toggle="dropdown"
                   >
-                    Pages
+                    Information Centre
                   </a>
                   <div className="dropdown-menu m-0">
                     <a href="service.html" className="dropdown-item">
-                      Service
+                      Research and Innovation
                     </a>
                     <a href="donate.html" className="dropdown-item">
                       Donate
@@ -85,7 +85,7 @@ const Header = () => {
                       Testimonial
                     </a>
                     <a href="404.html" className="dropdown-item">
-                      404 Page
+                      Patient Resources
                     </a>
                   </div>
                 </div>
