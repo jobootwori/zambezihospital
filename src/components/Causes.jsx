@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Causes = () => {
@@ -12,33 +13,37 @@ const Causes = () => {
             style={{ maxWidth: 500 + "px" }}
           >
             <div className="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
-              Feature Causes
+              Information centre
             </div>
             <h1 className="display-6 mb-5">
-              Every Child Deserves The Opportunity To Learn
+              Everyone Deserves The Opportunity To Learn
             </h1>
           </div>
           <div className="row g-4 justify-content-center">
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
               <div className="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                 <div className="text-center p-4 pt-0">
                   <div className="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                    <small>Education</small>
+                    <small>Treatment</small>
                   </div>
-                  <h5 className="mb-3">Education For African Children</h5>
+                  <h5 className="mb-3">The Treatment Modalities</h5>
                   <p>
-                    Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                    amet diam et eos
+                    Gain insights into the different treatment modalities
+                    available for cancer. Understand how these approaches work
+                    and their potential side effects
                   </p>
                   <div className="causes-progress bg-light p-3 pt-2">
-                    <div className="d-flex justify-content-between">
+                    {/* <div className="d-flex justify-content-between">
                       <p className="text-dark">
                         $10,000 <small className="text-body">Goal</small>
                       </p>
                       <p className="text-dark">
                         $9,542 <small className="text-body">Raised</small>
                       </p>
-                    </div>
+                    </div> */}
                     <div className="progress">
                       <div
                         className="progress-bar"
@@ -53,7 +58,15 @@ const Causes = () => {
                   </div>
                 </div>
                 <div className="position-relative mt-auto">
-                  <img className="img-fluid" src="img/courses-1.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/courses-1.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt=""
+                  />
                   <div className="causes-overlay">
                     <a className="btn btn-outline-primary" href="">
                       Read More
@@ -65,26 +78,29 @@ const Causes = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
               <div className="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                 <div className="text-center p-4 pt-0">
                   <div className="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                    <small>Pure Water</small>
+                    <small>Cancer Types</small>
                   </div>
-                  <h5 className="mb-3">Ensure Pure Drinking Water</h5>
+                  <h5 className="mb-3">The Various Types of Cancers</h5>
                   <p>
-                    Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                    amet diam et eos
+                    Explore detailed information on various types of cancers,
+                    including risk factors, symptoms, and treatment options.
                   </p>
                   <div className="causes-progress bg-light p-3 pt-2">
-                    <div className="d-flex justify-content-between">
+                    {/* <div className="d-flex justify-content-between">
                       <p className="text-dark">
                         $10,000 <small className="text-body">Goal</small>
                       </p>
                       <p className="text-dark">
                         $9,542 <small className="text-body">Raised</small>
                       </p>
-                    </div>
+                    </div> */}
                     <div className="progress">
                       <div
                         className="progress-bar"
@@ -99,7 +115,15 @@ const Causes = () => {
                   </div>
                 </div>
                 <div className="position-relative mt-auto">
-                  <img className="img-fluid" src="img/courses-2.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/courses-2.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt=""
+                  />
                   <div className="causes-overlay">
                     <a className="btn btn-outline-primary" href="">
                       Read More
@@ -111,26 +135,30 @@ const Causes = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
               <div className="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                 <div className="text-center p-4 pt-0">
                   <div className="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                     <small>Healthy Life</small>
                   </div>
-                  <h5 className="mb-3">Ensure Medical Treatment</h5>
+                  <h5 className="mb-3">Prevention and Early Detection</h5>
                   <p>
-                    Tempor erat elitr rebum at clita dolor diam ipsum sit diam
-                    amet diam et eos
+                    Learn about proactive measures for cancer prevention,
+                    including lifestyle choices, screenings, and early detection
+                    strategies
                   </p>
                   <div className="causes-progress bg-light p-3 pt-2">
-                    <div className="d-flex justify-content-between">
+                    {/* <div className="d-flex justify-content-between">
                       <p className="text-dark">
                         $10,000 <small className="text-body">Goal</small>
                       </p>
                       <p className="text-dark">
                         $9,542 <small className="text-body">Raised</small>
                       </p>
-                    </div>
+                    </div> */}
                     <div className="progress">
                       <div
                         className="progress-bar"
@@ -145,7 +173,15 @@ const Causes = () => {
                   </div>
                 </div>
                 <div className="position-relative mt-auto">
-                  <img className="img-fluid" src="img/courses-3.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/courses-3.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    alt=""
+                  />
                   <div className="causes-overlay">
                     <a className="btn btn-outline-primary" href="">
                       Read More

@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
       <Carousel />
       <About />
-      {/* <Causes /> */}
+      <Causes />
       {/* <Service /> */}
       {/* <Donate /> */}
       {/* <Team /> */}
