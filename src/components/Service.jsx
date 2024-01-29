@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Service = () => {
@@ -19,13 +20,25 @@ const Service = () => {
             </h1>
           </div>
           <div className="row g-4 justify-content-center">
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
               <div className="service-item bg-white text-center h-100 p-4 p-xl-5">
-                <img className="img-fluid mb-4" src="img/icon-1.png" alt="" />
-                <h4 className="mb-3">Child Education</h4>
+                <Image
+                  className="img-fluid mb-4"
+                  src="/img/icon-1.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: 100 + "px", height: "auto" }}
+                  alt=""
+                />
+                <h4 className="mb-3">Diagnosis</h4>
                 <p className="mb-4">
-                  Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                  diam justo sed vero dolor duo.
+                  Utilizing advanced diagnostic tools, imaging, and laboratory
+                  tests for accurate and early detection of various cancer
+                  types.
                 </p>
                 <a className="btn btn-outline-primary px-3" href="">
                   Learn More
@@ -35,13 +48,24 @@ const Service = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
               <div className="service-item bg-white text-center h-100 p-4 p-xl-5">
-                <img className="img-fluid mb-4" src="img/icon-2.png" alt="" />
+                <Image
+                  className="img-fluid mb-4"
+                  src="/img/icon-2.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: 100 + "px", height: "auto" }}
+                  alt=""
+                />
                 <h4 className="mb-3">Medical Treatment</h4>
                 <p className="mb-4">
-                  Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                  diam justo sed vero dolor duo.
+                  Offering a comprehensive range of treatments, including
+                  surgery, chemotherapy, radiation therapy and immunotherapy,
                 </p>
                 <a className="btn btn-outline-primary px-3" href="">
                   Learn More
@@ -51,13 +75,24 @@ const Service = () => {
                 </a>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div
+              className="col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
               <div className="service-item bg-white text-center h-100 p-4 p-xl-5">
-                <img className="img-fluid mb-4" src="img/icon-3.png" alt="" />
-                <h4 className="mb-3">Pure Drinking Water</h4>
+                <Image
+                  className="img-fluid mb-4"
+                  src="/img/icon-3.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: 100 + "px", height: "auto" }}
+                  alt=""
+                />
+                <h4 className="mb-3">Research</h4>
                 <p className="mb-4">
-                  Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum
-                  diam justo sed vero dolor duo.
+                  Conducting cutting-edge cancer research, clinical trials, and
+                  contributing to advancements in cancer treatment and care
                 </p>
                 <a className="btn btn-outline-primary px-3" href="">
                   Learn More

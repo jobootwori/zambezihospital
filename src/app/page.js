@@ -24,7 +24,7 @@ export default function Home() {
       <Carousel />
       <About />
       <Causes />
-      {/* <Service /> */}
+      <Service />
       {/* <Donate /> */}
       {/* <Team /> */}
       {/* <Testimonial /> */}
