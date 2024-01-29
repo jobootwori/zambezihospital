@@ -52,7 +52,7 @@ const Causes = () => {
                         aria-valuemin="0"
                         aria-valuemax="100"
                       >
-                        <span>90%</span>
+                        <span></span>
                       </div>
                     </div>
                   </div>
@@ -105,11 +105,11 @@ const Causes = () => {
                       <div
                         className="progress-bar"
                         role="progressbar"
-                        aria-valuenow="90"
+                        aria-valuenow="50"
                         aria-valuemin="0"
                         aria-valuemax="100"
                       >
-                        <span>90%</span>
+                        <span></span>
                       </div>
                     </div>
                   </div>
@@ -167,7 +167,7 @@ const Causes = () => {
                         aria-valuemin="0"
                         aria-valuemax="100"
                       >
-                        <span>90%</span>
+                        <span></span>
                       </div>
                     </div>
                   </div>
