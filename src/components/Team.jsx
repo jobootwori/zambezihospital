@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Team = () => {
@@ -19,10 +20,21 @@ const Team = () => {
             </h1>
           </div>
           <div className="row g-4">
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/team-1.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "auto", height: "auto" }}
+                    alt=""
+                  />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Full Name</h5>
@@ -41,10 +53,21 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/team-2.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "auto", height: "auto" }}
+                    alt=""
+                  />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Full Name</h5>
@@ -63,10 +86,21 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.5s"
+            >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/team-3.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "auto", height: "auto" }}
+                    alt=""
+                  />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Full Name</h5>
@@ -85,10 +119,21 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.7s"
+            >
               <div className="team-item position-relative rounded overflow-hidden">
                 <div className="overflow-hidden">
-                  <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                  <Image
+                    className="img-fluid"
+                    src="/img/team-4.jpg"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "auto", height: "auto" }}
+                    alt=""
+                  />
                 </div>
                 <div className="team-text bg-light text-center p-4">
                   <h5>Full Name</h5>
@@ -114,6 +159,5 @@ const Team = () => {
     </>
   );
 };
-
 
 export default Team;
