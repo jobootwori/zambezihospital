@@ -20,13 +20,8 @@ const contactus = () => {
                 If You Have Any Query, Please Contact Us
               </h1>
               <p className="mb-4">
-                The contact form is currently inactive. Get a functional and
-                working contact form with Ajax & PHP in a few minutes. Just copy
-                and paste the files, add a little code and you're done.{" "}
-                <a href="https://freewebsitecreate.net/contact-form">
-                  Download Now
-                </a>
-                .
+                Reach out to us for any inquiries, information, or support.
+                We're here to assist you .
               </p>
               <form>
                 <div className="row g-3">
@@ -36,7 +31,7 @@ const contactus = () => {
                         type="text"
                         className="form-control"
                         id="name"
-                        placeholder="Your Name"
+                        placeholder="Your Full Name"
                       ></input>
                       <label htmlFor="name">Your Name</label>
                     </div>
@@ -98,11 +93,12 @@ const contactus = () => {
                   // height="450"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
-                
-                  //border="0" 
+                  //border="0"
                   style={{ minHeight: 450 + "px", border: 0 }}
-                  allowFullScreen="" aria-hidden="false" tabIndex="0" >
-                </iframe>
+                  allowFullScreen=""
+                  aria-hidden="false"
+                  tabIndex="0"
+                ></iframe>
               </div>
             </div>
           </div>
