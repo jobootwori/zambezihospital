@@ -32,7 +32,7 @@ const contactus = () => {
                         className="form-control"
                         id="name"
                         placeholder="Your Full Name"
-                      ></input>
+                       required></input>
                       <label htmlFor="name">Your Name</label>
                     </div>
                   </div>
@@ -43,7 +43,7 @@ const contactus = () => {
                         className="form-control"
                         id="email"
                         placeholder="Your Email"
-                      ></input>
+                       required></input>
                       <label htmlFor="email">Your Email</label>
                     </div>
                   </div>
@@ -54,7 +54,7 @@ const contactus = () => {
                         className="form-control"
                         id="subject"
                         placeholder="Subject"
-                      ></input>
+                      required></input>
                       <label htmlFor="subject">Subject</label>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ const contactus = () => {
                         placeholder="Leave a message here"
                         id="message"
                         style={{ height: 100 + "px" }}
-                      ></textarea>
+                      required></textarea>
                       <label htmlFor="message">Message</label>
                     </div>
                   </div>
