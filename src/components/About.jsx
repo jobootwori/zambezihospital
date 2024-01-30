@@ -38,23 +38,24 @@ const About = () => {
                   About Us
                 </div>
                 <h1 className="display-6 mb-2">
-                  Welcome to Our Haven of Healing and Hope
+                  Embarking on a Journey of Healing and Hope
                 </h1>
                 <div className="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                   <p className="text-dark mb-2">
-                    At Zambezi Cancer Hospital, we extend our warmest embrace to
-                    those navigating the challenging journey of cancer. Our
-                    dedicated team is here to provide compassionate care and
-                    support every step of the way
+                    Zambezi Cancer Hospital extends a heartfelt welcome to
+                    individuals traversing the challenging path of cancer. Our
+                    devoted team is dedicated to delivering compassionate care
+                    and unwavering support throughout every phase.
                   </p>
                   <span className="text-primary">Dr. Mutuma, Founder</span>
                 </div>
                 <p className="mb-5">
-                  With a team of experienced oncologists, surgeons, nurses, and
-                  support staff, we bring together diverse expertise to offer
-                  comprehensive cancer services. Our commitment to excellence
-                  ensures that patients receive personalized care tailored to
-                  their unique needs
+                  Guided by our esteemed founder, Dr. Mutuma, and supported by a
+                  team of experienced oncologists, surgeons, nurses, and
+                  auxiliary staff, we unite diverse expertise to provide
+                  comprehensive cancer services. Our unwavering commitment to
+                  excellence ensures that patients receive personalized care
+                  meticulously tailored to their unique needs.
                 </p>
                 <a className="btn btn-primary py-2 px-3 me-3" href="">
                   Learn More

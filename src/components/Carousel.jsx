@@ -30,10 +30,12 @@ const Carousel = () => {
                         Empathy in Every Encounter Care in Every Moment
                       </h1>
                       <p className="fs-5 text-white-50 mb-5 animated slideInDown">
-                        Step into a place where compassion meets expertise. The
-                        zambezi Cancer Hospital is honored to stand with you in
-                        your fight against cancer, offering unwavering support
-                        and world-class care
+                        Step into a realm where compassion harmonizes with
+                        expertise. The Zambezi Hospital stands beside you,
+                        committed to providing unwavering support and
+                        world-class care. Your health and wellness are our
+                        foremost priorities, embodying our mission to nurture
+                        and safeguard your well-being.
                       </p>
                       <a
                         className="btn btn-primary py-2 px-3 animated slideInDown"
@@ -64,14 +66,18 @@ const Carousel = () => {
                   <div className="row justify-content-center">
                     <div className="col-lg-7 pt-5">
                       <h1 className="display-5 text-white mb-3 animated slideInDown">
-                        Join the BF Suma Zambezi Hospital Cancer Walk
+                      Stride with Purpose: BF Suma The Zambezi
+                        Hospital Cancer Walk
                       </h1>
                       <p className="fs-5 text-white-50 mb-5 animated slideInDown">
-                        The Cancer Walk is more than a journey; it&apos;s a
-                        collective stride toward hope, support, and a
-                        cancer-free future. Let&apos;s walk together, step by step,
-                        as we celebrate survivors, honor those we&apos;ve lost, and
-                        rally for a brighter tomorrow
+                        Take purposeful steps with us in the BF Suma Zambezi Hospital Cancer
+                        Walk—a journey beyond hope to tangible support and a
+                        future actively shaped against cancer. Together, we
+                        walk, acknowledging loss, celebrating resilience, and
+                        advocating for a brighter tomorrow. Every step is a
+                        deliberate move towards a reality where the impact of
+                        cancer diminishes. Join us on this purpose-driven walk,
+                        making strides that matter.
                       </p>
                       <a
                         className="btn btn-primary py-2 px-3 animated slideInDown"
