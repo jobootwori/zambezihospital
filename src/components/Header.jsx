@@ -1,5 +1,7 @@
 'use client';
+import Link from "next/link";
 import React from "react";
+import contactus from "@/app/contactus/page";
 
 const Header = () => {
     return (
@@ -90,7 +92,8 @@ const Header = () => {
                     </a>
                   </div>
                 </div>
-                <a href="" className="nav-item nav-link">
+               
+                <a href="/contactus" className="nav-item nav-link">
                   Contact
                 </a>
               </div>
