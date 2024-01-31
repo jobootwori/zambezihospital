@@ -157,13 +157,13 @@ const Contactus = () => {
               style={{ minHeight: 450 + "px" }}
             >
               <div className="position-relative rounded overflow-hidden h-100">
-                <iframe
+                <iframe async
                   className="position-relative w-100 h-100"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7732487607122!2d36.81825027380594!3d-1.3114253356516767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11acce585601%3A0x77d09ef85d415926!2sThe%20Zambezi%20Hospital!5e0!3m2!1sen!2ske!4v1706626858464!5m2!1sen!2ske"
                   // width="600"
                   // height="450"
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                   //border="0"
                   style={{ minHeight: 450 + "px", border: 0 }}
                   allowFullScreen=""
