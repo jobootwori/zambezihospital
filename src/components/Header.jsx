@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link";
 import React from "react";
-import contactus from "@/app/contactus/page";
+import contactus from "../app/contactus/page";
 
 const Header = () => {
     return (
@@ -42,7 +42,7 @@ const Header = () => {
             className="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn"
             data-wow-delay="0.1s"
           >
-            <a href="" className="navbar-brand ms-4 ms-lg-0">
+            <a href="/" className="navbar-brand ms-4 ms-lg-0">
               <h1 className="fw-bold text-primary m-0">
                 ZambeziCancer<span className="text-white">Hospital</span>
               </h1>
@@ -57,10 +57,10 @@ const Header = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="" className="nav-item nav-link active">
+                <a href="/" className="nav-item nav-link active">
                   Home
                 </a>
-                <a href="" className="nav-item nav-link">
+                <a href="/contactus" className="nav-item nav-link">
                   About
                 </a>
                 <a href="" className="nav-item nav-link">

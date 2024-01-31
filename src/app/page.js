@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Header from "@/components/Header";
-import Carousel from "@/components/Carousel";
-import Footer from "@/components/Footer";
-import About from "@/components/About";
-import Causes from "@/components/Causes";
-import Service from "@/components/Service";
-import Donate from "@/components/Donate";
-import Team from "@/components/Team";
-import Testimonial from "@/components/Testimonial";
+import Header from "../components/Header";
+import Carousel from "../components/Carousel";
+import Footer from "../components/Footer";
+import About from "../components/About";
+import Causes from "../components/Causes";
+import Service from "../components/Service";
+import Donate from "../components/Donate";
+import Team from "../components/Team";
+import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (

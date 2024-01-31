@@ -1,7 +1,7 @@
-"use client";
+'use client';
 import React, { useState } from "react";
-import Header from "@/components/Header";
-import PageHeader from "@/components/PageHeader";
+import Header from "../../components/Header";
+import PageHeader from "../../components/PageHeader";
 
 const Contactus = () => {
   // Create state variables
