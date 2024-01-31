@@ -1,8 +1,62 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Header from "@/components/Header";
 import PageHeader from "@/components/PageHeader";
 
-const contactus = () => {
+const Contactus = () => {
+  // Create state variables
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  // Step 5: Form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Set loading to true when starting the form submission
+    setLoading(true);
+
+    // Your form submission logic goes here
+
+    try {
+      const response = await fetch("/api/mail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          fullName,
+          email,
+          subject,
+          message,
+        }),
+      });
+
+      if (response.ok) {
+        // If you want to perform any action after successful submission, you can do it here.
+        // For example, you can reset the form or show a success message.
+        alert("Success! Email sent successfully!");
+
+        setFullName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+
+        // Simulate an asynchronous operation (replace with your actual async logic)
+        await new Promise((resolve) => setTimeout(resolve, 2000));
+      } else {
+        alert("Failed to send email. Please try again." + error );
+      }
+    } catch (error) {
+      alert("Error sending email: " + error);
+    } finally {
+      // Set loading back to false, regardless of success or failure
+      setLoading(false);
+    }
+  };
   return (
     <>
       <Header />
@@ -23,7 +77,7 @@ const contactus = () => {
                 Reach out to us for any inquiries, information, or support.
                 We're here to assist you .
               </p>
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="row g-3">
                   <div className="col-md-6">
                     <div className="form-floating">
@@ -32,7 +86,10 @@ const contactus = () => {
                         className="form-control"
                         id="name"
                         placeholder="Your Full Name"
-                       required></input>
+                        required
+                        value={fullName}
+                        onChange={(e) => setFullName(e.target.value)}
+                      ></input>
                       <label htmlFor="name">Your Name</label>
                     </div>
                   </div>
@@ -43,7 +100,10 @@ const contactus = () => {
                         className="form-control"
                         id="email"
                         placeholder="Your Email"
-                       required></input>
+                        required
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      ></input>
                       <label htmlFor="email">Your Email</label>
                     </div>
                   </div>
@@ -54,7 +114,10 @@ const contactus = () => {
                         className="form-control"
                         id="subject"
                         placeholder="Subject"
-                      required></input>
+                        required
+                        value={subject}
+                        onChange={(e) => setSubject(e.target.value)}
+                      ></input>
                       <label htmlFor="subject">Subject</label>
                     </div>
                   </div>
@@ -65,13 +128,21 @@ const contactus = () => {
                         placeholder="Leave a message here"
                         id="message"
                         style={{ height: 100 + "px" }}
-                      required></textarea>
+                        required
+                        value={message}
+                        onChange={(e) => setMessage(e.target.value)}
+                      ></textarea>
                       <label htmlFor="message">Message</label>
                     </div>
                   </div>
                   <div className="col-12">
-                    <button className="btn btn-primary py-2 px-3 me-3">
-                      Send Message
+                    <button
+                      type="submit"
+                      className="btn btn-primary py-2 px-3 me-3"
+                      disabled={loading} // Disable the button when loading is true
+                    >
+                      {loading ? "Sending..." : "Send Message"}
+
                       <div className="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                         <i className="fa fa-arrow-right"></i>
                       </div>
@@ -109,4 +180,4 @@ const contactus = () => {
   );
 };
 
-export default contactus;
+export default Contactus;
