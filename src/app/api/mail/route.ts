@@ -1,3 +1,4 @@
+// app/api/route.js
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
@@ -49,43 +50,4 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: err }, { status: 500 });
   }
 }
-
-// // app/api/route.js
-// import { NextRequest } from "next/server";
-// import nodemailer from "nodemailer";
-
-// export async function POST(request: NextRequest) {
-  
-//     const { fullName, email, subject, message } = req.body;
-
-//     console.log("Received request with data:", req.body);
-
-//     const transporter = nodemailer.createTransport({
-//       service: "gmail",
-//       auth: {
-//         user: "zambezicancerhospital@gmail.com", // replace with your Gmail address
-//         pass: "eatwijdokcmdawms", // replace with your Gmail password
-//       },
-//     });
-
-//     const mailOptions = {
-//       from: email,
-//       to: "zambezicancerhospital@gmail.com", // replace with your recipient's email address
-//       subject: subject,
-//       text: `
-//         Full Name: ${fullName}
-//         email: ${email}
-//         subject: ${subject}
-//         message: ${message}
-//       `,
-//     };
-
-//     transporter.sendMail(mailOptions, (error, info) => {
-//       if (error) {
-//         console.error("Error sending email:", error);
-//         return res.status(500).json({ error: "Internal Server Error", message: error.toString() });
-//       }
-//       res.status(200).send("Email sent: " + info.response);
-//     });
-//   } 
 
