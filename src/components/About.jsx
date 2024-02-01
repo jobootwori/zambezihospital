@@ -58,7 +58,7 @@ const About = () => {
                   excellence ensures that patients receive personalized care
                   meticulously tailored to their unique needs.
                 </p>
-                <a className="btn btn-primary py-2 px-3 me-3" href="">
+                <a className="btn btn-primary py-2 px-3 me-3" href="/aboutus">
                   Learn More
                   <div className="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                     <i className="fa fa-arrow-right"></i>
