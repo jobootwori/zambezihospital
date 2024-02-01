@@ -60,7 +60,7 @@ const Contactus = () => {
   return (
     <>
       <Header />
-      <PageHeader />
+      <PageHeader pageTitle="Contact Us" />
 
       {/* <!-- Contact Start --> */}
       <div className="container-xxl py-5">
