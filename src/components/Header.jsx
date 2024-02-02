@@ -43,9 +43,9 @@ const Header = () => {
             data-wow-delay="0.1s"
           >
             <a href="/" className="navbar-brand ms-4 ms-lg-0">
-              <h1 className="fw-bold text-primary m-0">
-                ZambeziCancer<span className="text-white">Hospital</span>
-              </h1>
+              <h2 className="fw-bold text-primary m-0">
+                The ZambeziCancer<span className="text-white">Hospital</span>
+              </h2>
             </a>
             <button
               type="button"
