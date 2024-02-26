@@ -11,7 +11,7 @@ const page = () => {
       <>
         <Header />
         <PageHeader pageTitle="About Us" />
-        {/* <!-- Service Start --> */}
+        {/* <!-- About Start --> */}
         <div className="container-xxl py-5">
           <div className="container">
             <div
@@ -87,7 +87,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        {/* <!-- Service End --> */}
+        {/* <!-- About End --> */}
 
         <About />
         <CoreValues />

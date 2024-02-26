@@ -4,8 +4,8 @@ import React from "react";
 
 const Service = () => {
   return (
-    <>
-      {/* <!-- Service Start --> */}
+          // {/* <!-- Service Start --> */}
+          <>
       <div className="container-xxl py-5">
         <div className="container">
           <div
@@ -106,8 +106,8 @@ const Service = () => {
           </div>
         </div>
       </div>
-      {/* <!-- Service End --> */}
-    </>
+      {/* // <!-- Service End --> */}
+      </>
   );
 };
 
