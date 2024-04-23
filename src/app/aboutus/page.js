@@ -89,6 +89,62 @@ const page = () => {
         </div>
         {/* <!-- About End --> */}
 
+        {/* <!-- Donate Start --> */}
+        <div
+          className="container-fluid donate my-5 py-5"
+          data-parallax="scroll"
+          data-image-src="img/carousel-2.jpg"
+        >
+          <div className="container py-5">
+            <div className="row g-5 align-items-center">
+              <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                <div className="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
+                  Hospital Profile
+                </div>
+
+                <p className="text-white-50 mb-0">
+                  <b>The Zambezi Hospital </b>is a level four private hospital
+                  situated in south C, Ole Shapara Avenue. It has outpatient and
+                  inpatient services with special emphasis on cancer prevention,
+                  control, diagnosis and treatment. The hospital has thus been
+                  in the fore front in health promotion which assists corporates
+                  and individuals to maintain their own health, detect health
+                  risk behaviors and lifestyle modification.
+                </p>
+                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                <p className="text-white-50 mb-0">
+                  <b>The Zambezi Hospital </b>is an expansion of Nairobi
+                  pathology and allied services which had been in place since
+                  1998 which was offering medico-legal services, medical
+                  laboratory services with outpatient services specialized in
+                  cancer diagnosis. It had outreach services for screening and
+                  creating cancer awareness and other non-communicable diseases
+                  (NCDs). This was through health talks and medical camps in
+                  Nairobi, Machakos, Makueni, Embu, Nyeri and Meru counties.
+                </p>
+              </div>
+              <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div className="h-100 bg-white p-5">
+                  <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                  <p className="text-black-50 mb-0">
+                    The Zambezi hospital opened its doors to the public in
+                    September 2014 and is designed to become a recognized leader
+                    in its target market for its expansive line of cancer
+                    diagnosis, health and wellness screening, clinical, and
+                    medico- legal services. The facility with minimum of 25 beds
+                    in- patient care provides a full scale emergency room,
+                    outpatient department, consulting clinics, minor theatre,
+                    medical laboratory, Pharmacy, ultrasound, physiotherapy and
+                    other services to mention a few.
+                  </p>
+                  <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!-- Donate End --> */}
+
         {/* <About /> */}
         <CoreValues />
       </>
