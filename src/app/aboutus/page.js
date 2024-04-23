@@ -89,7 +89,7 @@ const page = () => {
         </div>
         {/* <!-- About End --> */}
 
-        <About />
+        {/* <About /> */}
         <CoreValues />
       </>
       <div>

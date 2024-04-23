@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 
 const Footer = () => {
@@ -16,8 +16,10 @@ const Footer = () => {
                 ZambeziCancer<span className="text-white">Hospital</span>
               </h4>
               <p>
-                Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita
-                erat ipsum et lorem et sit, sed stet lorem sit clita
+                The Zambezi Hospital is a level four private hospital situated
+                in south C, Ole Shapara Avenue. It has outpatient and inpatient
+                services with special emphasis on cancer prevention, control,
+                diagnosis and treatment.
               </p>
               <div className="d-flex pt-2">
                 <a className="btn btn-square me-1" href="">
@@ -37,37 +39,37 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <h5 className="text-light mb-4">Address</h5>
               <p>
-                <i className="fa fa-map-marker-alt me-3"></i>Maai Mahiu road, Nairobi
+                <i className="fa fa-map-marker-alt me-3"></i>Maai Mahiu road,
+                Nairobi
               </p>
               <p>
                 <i className="fa fa-phone-alt me-3"></i>+254 722 801 299
               </p>
               <p>
-                <i className="fa fa-envelope me-3"></i>thezambezihospital@gmail.com
+                <i className="fa fa-envelope me-3"></i>
+                thezambezihospital@gmail.com
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
               <h5 className="text-light mb-4">Quick Links</h5>
-              <a className="btn btn-link" href="">
+              <a className="btn btn-link" href="/aboutus">
                 About Us
               </a>
-              <a className="btn btn-link" href="">
+              <a className="btn btn-link" href="/contactus">
                 Contact Us
               </a>
-              <a className="btn btn-link" href="">
+              <a className="btn btn-link" href="/services">
                 Our Services
               </a>
-              <a className="btn btn-link" href="">
-                Terms & Condition
-              </a>
-              <a className="btn btn-link" href="">
-                Support
-              </a>
+              
             </div>
             <div className="col-lg-3 col-md-6">
               <h5 className="text-light mb-4">Newsletter</h5>
-              <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-              <div className="position-relative mx-auto" style={{maxWidth: 400+"px"}}>
+              <p>Subscribe to get our weekly Newsletter</p>
+              <div
+                className="position-relative mx-auto"
+                style={{ maxWidth: 400 + "px" }}
+              >
                 <input
                   className="form-control bg-transparent w-100 py-3 ps-4 pe-5"
                   type="text"
@@ -87,11 +89,12 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a href="#">Zambezi Cancer Hospital</a>, All Right Reserved.
+                &copy; <a href="#">Zambezi Cancer Hospital</a>, All Right
+                Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
                 Designed By{" "}
-                <a href="https://github.com/jobootwori">BnB Media</a>
+                <a href="https://github.com/jobootwori">BnB Solutions</a>
               </div>
             </div>
           </div>
