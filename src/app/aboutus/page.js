@@ -111,7 +111,7 @@ const page = () => {
                   and individuals to maintain their own health, detect health
                   risk behaviors and lifestyle modification.
                 </p>
-                <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                 <p className="text-white-50 mb-0">
                   <b>The Zambezi Hospital </b>is an expansion of Nairobi
                   pathology and allied services which had been in place since
@@ -125,7 +125,7 @@ const page = () => {
               </div>
               <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                 <div className="h-100 bg-white p-5">
-                  <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                  <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                   <p className="text-black-50 mb-0">
                     The Zambezi hospital opened its doors to the public in
                     September 2014 and is designed to become a recognized leader
@@ -137,7 +137,7 @@ const page = () => {
                     medical laboratory, Pharmacy, ultrasound, physiotherapy and
                     other services to mention a few.
                   </p>
-                  <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                  <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
                 </div>
               </div>
             </div>
