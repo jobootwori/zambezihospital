@@ -3,12 +3,14 @@ import Link from "next/link";
 import React from "react";
 import contactus from "../app/contactus/page";
 
+
+
 const Header = () => {
     return (
       <>
         {/* <!-- Navbar Start --> */}
         <div
-          className="container-fluid fixed-top px-0 wow fadeIn"
+          className="container-fluid fixed-top px-0  wow fadeIn"
           data-wow-delay="0.1s"
         >
           <div className="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
@@ -55,7 +57,7 @@ const Header = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="collapse navbar-collapse " id="navbarCollapse">
               <div className="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="/" className="nav-item nav-link active">
                   Home
