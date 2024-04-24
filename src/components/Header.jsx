@@ -76,19 +76,19 @@ const Header = () => {
                   </a>
                   <div className="dropdown-menu m-0">
                     <a href="" className="dropdown-item">
-                      Research and Innovation
+                      Books
                     </a>
-                    <a href="" className="dropdown-item">
+                    {/* <a href="" className="dropdown-item">
                       Donate
-                    </a>
+                    </a> */}
                     <a href="" className="dropdown-item">
                       Our Team
                     </a>
                     <a href="" className="dropdown-item">
-                      Testimonial
+                      Cancer Walk
                     </a>
                     <a href="" className="dropdown-item">
-                      Patient Resources
+                      Media Gallery
                     </a>
                   </div>
                 </div>
@@ -97,14 +97,14 @@ const Header = () => {
                   Contact
                 </a>
               </div>
-              <div className="d-none d-lg-flex ms-2">
+              {/* <div className="d-none d-lg-flex ms-2">
                 <a className="btn btn-outline-primary py-2 px-3" href="">
                   Donate Now
                   <div className="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                     <i className="fa fa-arrow-right"></i>
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>
