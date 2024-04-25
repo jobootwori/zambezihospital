@@ -69,7 +69,7 @@ const Causes = () => {
                     alt=""
                   />
                   <div className="causes-overlay">
-                    <a className="btn btn-outline-primary" href="">
+                    <a className="btn btn-outline-primary" href="/books">
                       Read More
                       <div className="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                         <i className="fa fa-arrow-right"></i>
@@ -126,7 +126,7 @@ const Causes = () => {
                     alt=""
                   />
                   <div className="causes-overlay">
-                    <a className="btn btn-outline-primary" href="">
+                    <a className="btn btn-outline-primary" href="/books">
                       Read More
                       <div className="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                         <i className="fa fa-arrow-right"></i>
@@ -184,7 +184,7 @@ const Causes = () => {
                     alt=""
                   />
                   <div className="causes-overlay">
-                    <a className="btn btn-outline-primary" href="">
+                    <a className="btn btn-outline-primary" href="/books">
                       Read More
                       <div className="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                         <i className="fa fa-arrow-right"></i>
