@@ -65,7 +65,7 @@ const Carousel = () => {
                           </p>
                           <a
                             className="btn btn-primary py-2 px-3 animated slideInDown"
-                            href=""
+                            href="/services"
                           >
                             Learn More
                             <div className="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
@@ -127,7 +127,7 @@ const Carousel = () => {
                           </p>
                           <a
                             className="btn btn-primary py-2 px-3 animated slideInDown"
-                            href=""
+                            href="/cancerwalk"
                           >
                             Learn More
                             <div className="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
