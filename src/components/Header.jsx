@@ -77,7 +77,7 @@ const Header = () => {
                     Information Centre
                   </a>
                   <div className="dropdown-menu m-0">
-                    <a href="" className="dropdown-item">
+                    <a href="/books" className="dropdown-item">
                       Books
                     </a>
                     {/* <a href="" className="dropdown-item">

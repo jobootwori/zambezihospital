@@ -37,7 +37,7 @@ const page = () => {
     <>
       <Header />
       <PageHeader pageTitle="Media Gallery" />
-
+      <div className="row g-4 justify-content-center">
       <div className="container-xxl py-5">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:px-5">
@@ -63,6 +63,7 @@ const page = () => {
             ))}
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>
