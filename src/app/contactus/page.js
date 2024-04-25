@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import Header from "../../components/Header";
 import PageHeader from "../../components/PageHeader";
@@ -48,7 +48,7 @@ const Contactus = () => {
         // Simulate an asynchronous operation (replace with your actual async logic)
         await new Promise((resolve) => setTimeout(resolve, 2000));
       } else {
-        alert("Failed to send email. Please try again." + error );
+        alert("Failed to send email. Please try again." + error);
       }
     } catch (error) {
       alert("Error sending email: " + error);
@@ -59,6 +59,14 @@ const Contactus = () => {
   };
   return (
     <>
+      {/* <!-- Spinner Start --> */}
+      <div
+        id="spinner"
+        className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div className="spinner-grow text-primary" role="status"></div>
+      </div>
+      {/* <!-- Spinner End --> */}
       <Header />
       <PageHeader pageTitle="Contact Us" />
 
@@ -157,7 +165,8 @@ const Contactus = () => {
               style={{ minHeight: 450 + "px" }}
             >
               <div className="position-relative rounded overflow-hidden h-100">
-                <iframe async
+                <iframe
+                  async
                   className="position-relative w-100 h-100"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7732487607122!2d36.81825027380594!3d-1.3114253356516767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11acce585601%3A0x77d09ef85d415926!2sThe%20Zambezi%20Hospital!5e0!3m2!1sen!2ske!4v1706626858464!5m2!1sen!2ske"
                   // width="600"
