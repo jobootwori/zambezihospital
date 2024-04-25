@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../../components/Header";
 import PageHeader from "../../components/PageHeader";
 import Image from "next/image";
+import Footer from "../../components/Footer";
 
 const page = () => {
   const items = [
@@ -63,6 +64,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
