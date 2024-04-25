@@ -39,7 +39,7 @@ const page = () => {
 
       <div className="container-xxl py-5">
         <div className="container">
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:px-5">
             {items.map(({ id, src, link }) => (
               <div
                 key={id}
