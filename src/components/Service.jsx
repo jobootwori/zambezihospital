@@ -41,7 +41,7 @@ const Service = () => {
                   tests for accurate and early detection of various cancer
                   types.
                 </p>
-                <a className="btn btn-outline-primary px-3" href="">
+                <a className="btn btn-outline-primary px-3" href="/services">
                   Learn More
                   <div className="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                     <i className="fa fa-arrow-right"></i>
@@ -68,7 +68,7 @@ const Service = () => {
                   Offering a comprehensive range of treatments, including
                   surgery, chemotherapy, radiation therapy and immunotherapy,
                 </p>
-                <a className="btn btn-outline-primary px-3" href="">
+                <a className="btn btn-outline-primary px-3" href="/services">
                   Learn More
                   <div className="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                     <i className="fa fa-arrow-right"></i>
@@ -95,7 +95,7 @@ const Service = () => {
                   Conducting cutting-edge cancer research, clinical trials, and
                   contributing to advancements in cancer treatment and care
                 </p>
-                <a className="btn btn-outline-primary px-3" href="">
+                <a className="btn btn-outline-primary px-3" href="/services">
                   Learn More
                   <div className="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                     <i className="fa fa-arrow-right"></i>
