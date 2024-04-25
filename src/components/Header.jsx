@@ -83,13 +83,13 @@ const Header = () => {
                     {/* <a href="" className="dropdown-item">
                       Donate
                     </a> */}
-                    <a href="" className="dropdown-item">
+                    <a href="/team" className="dropdown-item">
                       Our Team
                     </a>
                     <a href="" className="dropdown-item">
                       Cancer Walk
                     </a>
-                    <a href="" className="dropdown-item">
+                    <a href="/media" className="dropdown-item">
                       Media Gallery
                     </a>
                   </div>
