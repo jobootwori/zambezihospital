@@ -33,7 +33,7 @@ const page = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ maxWidth: "100%", height: "auto" }}
+                  style={{ maxWidth: "100%", height: "auto",objectFit: "contain" }}
                 />
                 <Image
                   className="position-absolute top-0 end-0 bg-white ps-2 pb-2"
