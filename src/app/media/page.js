@@ -14,22 +14,67 @@ const page = () => {
     },
     {
       id: 2,
-      src: "/img/media/2.jpg",
+      src: "/img/media/3.jpg",
       link: "link here",
     },
     {
       id: 3,
-      src: "/img/media/2.jpg",
+      src: "/img/media/4.jpg",
       link: "link here",
     },
     {
       id: 4,
-      src: "/img/media/2.jpg",
+      src: "/img/media/5.jpg",
       link: "link here",
     },
     {
       id: 5,
-      src: "/img/media/2.jpg",
+      src: "/img/media/7.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/8.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/9.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/10.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/11.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/12.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/13.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/14.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/15.jpg",
+      link: "link here",
+    },
+    {
+      id: 5,
+      src: "/img/media/16.jpg",
       link: "link here",
     },
   ];
@@ -43,12 +88,14 @@ const page = () => {
         <div className="spinner-grow text-primary" role="status"></div>
       </div>
       {/* <!-- Spinner End --> */}
+
       <Header />
       <PageHeader pageTitle="Media Gallery" />
-      <div className="row g-4 justify-content-center">
-        <div className="container-xxl py-5">
-          <div className="container">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 sm:px-5">
+
+      {/* <div className="max-w-screen-lg flex flex-col mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full h-full"> */}
+      {/* <div className="container-xxl py-5"> */}
+      {/* <div className="container"> */}
+      {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2 sm:px-5"> 
               {items.map(({ id, src, link }) => (
                 <div
                   key={id}
@@ -69,10 +116,32 @@ const page = () => {
                   </div>
                 </div>
               ))}
-            </div>
+             </div> */}
+      {/*  </div> */}
+      {/* </div> */}
+      {/* </div> */}
+
+      {items.map(({ id, src, link }) => (
+        <div
+          key={id}
+          className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+        >
+          <div
+            className="col cols-5 center-items mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style={{ maxWidth: 500 + "px" }}
+          >
+            <Image
+              src={src}
+              alt=""
+              width={400}
+              height={300}
+              className="rounded-md duration-200 hover:scale-105"
+            />
           </div>
         </div>
-      </div>
+      ))}
+
       <Footer />
     </>
   );

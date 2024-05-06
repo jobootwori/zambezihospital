@@ -33,7 +33,7 @@ const page = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ maxWidth: "100%", height: "auto" }}
                 />
                 <Image
                   className="position-absolute top-0 end-0 bg-white ps-2 pb-2"
@@ -55,23 +55,22 @@ const page = () => {
                 </h1>
                 <div className="bg-light border-bottom border-5 border-primary rounded p-4 mb-4">
                   <p className="text-dark mb-2">
-                    Take purposeful steps with us in the BF Suma Zambezi
-                    Hospital Cancer Walk—a journey beyond hope to tangible
-                    support and a future actively shaped against cancer.
-                    Together, we walk, acknowledging loss, celebrating
-                    resilience, and advocating for a brighter tomorrow. Every
-                    step is a deliberate move towards a reality where the impact
-                    of cancer diminishes. Join us on this purpose-driven walk,
-                    making strides that matter.
+                    The Zambezi Hospital has been organizing the annual Cancer
+                    Walk since 2015 whose main objectives are:- <br></br>{" "}
+                    &nbsp;• To create Awareness of the importance of routine
+                    screening, early detection, early diagnosis, and treatment
+                    as the best cancer control and prevention methods, <br></br>{" "}
+                    &nbsp;• To give support to the patients and families
+                    affected by cancer.
                   </p>
                   {/* <span className="text-primary">Dr. Mutuma, Founder</span> */}
                 </div>
                 <p className="mb-5">
-                  Step by step, together we stride towards a future free from
-                  cancer's grip. Join us for our annual cancer walk as we walk
-                  with hope, unite in solidarity, and inspire change. Together,
-                  we can make a difference in the fight against cancer. See you
-                  at the starting line!
+                  This year, the 1st Cancer Walk was held on 25th February and
+                  was very successful. The 2nd Cancer Walk will be in September
+                  and October. With the support from individuals, schools, and
+                  corporates, we were able to raise a total of Kshs 6.5M in both
+                  cash and in kind
                 </p>
                 <a className="btn btn-primary py-2 px-3 me-3" href="/media">
                   Media Gallery
