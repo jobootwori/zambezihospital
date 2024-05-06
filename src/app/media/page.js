@@ -131,12 +131,13 @@ const page = () => {
             data-wow-delay="0.1s"
             style={{ maxWidth: 500 + "px" }}
           >
-            <Image
+            <img
               src={src}
               alt=""
-              width={400}
-              height={300}
+              // width={0}
+              // height={0}
               className="rounded-md duration-200 hover:scale-105"
+              style={{ maxWidth: "100%", height: "auto",objectFit: "contain" }}
             />
           </div>
         </div>

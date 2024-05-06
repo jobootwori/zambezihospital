@@ -33,7 +33,11 @@ const page = () => {
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ maxWidth: "100%", height: "auto",objectFit: "contain" }}
+                  style={{
+                    maxWidth: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                  }}
                 />
                 <Image
                   className="position-absolute top-0 end-0 bg-white ps-2 pb-2"
@@ -93,6 +97,73 @@ const page = () => {
         </div>
       </div>
       {/* <!-- About End --> */}
+      {/* <!-- Donate Start --> */}
+      <div
+        className="container-fluid donate my-5 py-5"
+        data-parallax="scroll"
+        data-image-src="img/carousel-2.jpg"
+      >
+        <div className="container py-5">
+          <div className="row g-5 align-items-center">
+            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+              <div className="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">
+                Walk to close the care gap{" "}
+              </div>
+              <ul className="max-w-md space-y-1 text-white-50 list-none list-inside dark:text-gray-400">
+                <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                <p>
+                  Kenya's cancer is ranked third as a cause of death after
+                  infectious and cardiovascular diseases contributing to 7% of
+                  total mortality annually. There are over 28,500 new cases of
+                  cancer diagnosed, while 22,100 people die of the disease in
+                  the same period. Over 60% of these deaths are premature deaths
+                  depriving the country of a healthy workforce. The leading
+                  cancers in women are breast, cervical, and throat cancers
+                  while those leading in men are the oesophagus, prostate, and
+                  Kaposi’s sarcoma.
+                </p>
+                <p>
+                  The Zambezi Cancer & General Hospital organizes an Annual
+                  CANCER WALKS to commemorate World Cancer Day, which is
+                  observed on February 4th every year by raising cancer
+                  awareness. The Hospital is situated in Nairobi's South C. In
+                  addition to being a general hospital, its focus is on Cancer
+                  Awareness, Screening, Control, Prevention, and Research.
+                </p>
+                <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+              </ul>
+            </div>
+            <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+              <div className="h-100 bg-white p-5">
+                <ul className="max-w-md space-y-1 text-gray-500 list-none list-inside dark:text-gray-400">
+                  <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                  <p>
+                    <b>Objectives:</b>
+                  </p>
+                  <ol>
+                    To raise funds through sponsorship for cancer awareness.
+                  </ol>
+                  <ol>
+                    To provide screening, early diagnosis, early treatment, and
+                    palliative care.
+                  </ol>
+                  <p>
+                    <b>Activities:</b>
+                  </p>
+                  The Zambezi Hospital as alreaady done walk six counties (1.
+                  Meru, 2. Nairobi, 4. Machakos, 5. Makueni, 6. Mombasa, 7.
+                  Kwale). and looking forward in doing in five more conties in
+                  May through to July 2024.
+                  <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr>
+                </ul>
+                {/* <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr> */}
+                {/* <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"></hr> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- Donate End --> */}
     </div>
   );
 };
